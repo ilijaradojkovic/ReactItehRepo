@@ -1,0 +1,73 @@
+
+body{
+    height: 100vh;
+   
+}
+
+button{
+    color:dimgray;
+}
+.dugme{
+    background: transparent ;
+    border: 3px solid #4CA1AF;
+    transition: all 0.5s ease;
+    border-radius: 15px;
+ 
+    
+}
+.link{
+    text-decoration: none;
+}
+.TopBar{
+    color: white;
+    background: linear-gradient(#2C3E50,#4CA1AF)
+}
+.dugme:hover{
+
+    background:#4CA1AF;
+    color: white;
+}
+.MainSection{
+    color:dimgray;
+}
+.Apartman{
+    grid-column: span 1;
+    border: solid #4CA1AF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 5px   #4CA1AF;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.image{
+    max-width:100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
+   
+}
+.MainContainerProducts{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns:1fr 1fr;
+    justify-content: center;
+    grid-row-gap:50px;
+
+}
+.Footer{
+   
+        position:fixed;
+        bottom:0;
+        left:0;
+        width: 100%;
+        background: #4CA1AF;
+  
+  color: white;
+}
+.imageC{
+    width: 500px;
+}
+
+
+
