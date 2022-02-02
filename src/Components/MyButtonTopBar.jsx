@@ -5,7 +5,7 @@ function MyButtonTopBar(props) {
 
 
   return (
-    <button className='dugmeTopBar col-2 m-4 '>{props.textButton}
+    <button className='dugmeTopBar col-2 m-4 ' onClick={props.uplatiButtonClicked}>{props.textButton}
     
 
 </button>

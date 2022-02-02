@@ -1,7 +1,7 @@
 import React from 'react';
 import {BsBuilding} from 'react-icons/bs';
 import MyButtonTopBar from './MyButtonTopBar';
-function TopBar() {
+function TopBar(props) {
   const textDugmeta="Uplati"
   return <div className='TopBar  p-4  d-flex '>
 
@@ -11,8 +11,8 @@ function TopBar() {
       </div>
   
       <div className="ele  col-8 d-flex justify-content-end">
-      <p className='d-flex align-items-center h-100'>0</p>
-        <MyButtonTopBar  textButton={textDugmeta}></MyButtonTopBar>
+      <p className='d-flex align-items-center h-100'>{props.stanje}</p>
+        <MyButtonTopBar uplatiButtonClicked={props.uplatiButtonClicked} textButton={textDugmeta}></MyButtonTopBar>
 
       </div>
      

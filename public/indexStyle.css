@@ -93,18 +93,20 @@ button{
 
     transform: translateY(-1400px);   
     transition:all  500ms ease-in;
-}
-.dialog.show{
     color: white;
     border-radius: 5px;
-    transform: translateY(0px);  
+   
     position: absolute;
     background-color: mediumseagreen;
     width: 30%;
     height: 30%;
-    position:fixed;
     top: 35%;
     left: 35%;
+}
+.dialog.show{
+
+    transform: translateY(0px);  
+  
 }
 .dialog button{
     transition:all  500ms ease-in;
