@@ -8,12 +8,8 @@ import {BrowserRouter,Routes,Route,Link} from "react-router-dom";
 import DetailsApartman from './DetailsApartman';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App/>}/>
-      <Route path="/Apartman/:id" element={<DetailsApartman/>}/>
-    </Routes>
-    </BrowserRouter>,
+  
+  <App></App>,
   document.getElementById('root')
 );
 

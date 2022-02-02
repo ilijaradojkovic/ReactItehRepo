@@ -1,16 +1,17 @@
 import React from 'react';
 import Product from './Product';
 
-function Products() {
+function Products({niz}) {
+ 
+  
   return <div className='MainContainerProducts  p-5  w-100 '>
 
-<Product></Product>
 
-      
-      <Product></Product>
-      <Product></Product>
-      <Product></Product>
+  {niz.map(ele=>{
    
+    return <Product key={ele.ime} element={ele}></Product>
+  })}
+      
   </div>;
 }
 

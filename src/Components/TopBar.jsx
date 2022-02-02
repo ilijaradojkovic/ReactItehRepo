@@ -11,7 +11,7 @@ function TopBar(props) {
       </div>
   
       <div className="ele  col-8 d-flex justify-content-end">
-      <p className='d-flex align-items-center h-100'>{props.stanje}</p>
+      <p className='d-flex align-items-center h-100'>{props.stanje}$</p>
         <MyButtonTopBar uplatiButtonClicked={props.uplatiButtonClicked} textButton={textDugmeta}></MyButtonTopBar>
 
       </div>

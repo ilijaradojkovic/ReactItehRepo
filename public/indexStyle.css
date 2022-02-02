@@ -12,8 +12,12 @@ button{
     border: 3px solid #4CA1AF;
     transition: all 0.5s ease;
     border-radius: 15px;
- 
+ z-index: 1;
     
+}
+.dugmeTxt{
+    color:darkgray;
+    text-decoration: none;
 }
 .link{
     text-decoration: none;
@@ -22,11 +26,13 @@ button{
     color: white;
     background: linear-gradient(#2C3E50,#4CA1AF)
 }
-.dugme:hover{
+.dugme:hover {
 
     background:#4CA1AF;
     color: white;
+    
 }
+
 .MainSection{
     color:dimgray;
 }
@@ -41,6 +47,7 @@ button{
     
 }
 .image{
+    width: 100%;
     max-width:100%;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -68,10 +75,11 @@ button{
 .imageC{
     width: 500px;
 }
-.test{
+.imageDetails{
     
-    height: 100vh;
-
+  
+  
+  
     background-size: cover;
     background-position: center;
 }

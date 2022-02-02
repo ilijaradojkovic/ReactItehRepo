@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Dialog(props) {
    const uplatiClickedD=()=>{props.uplatiButtonClicked(parseInt(document.getElementById("numberField").value));};
-   
+
 
   return (
       <div className={!props.isActiveDialog? 'dialog  flex-column align-items-center p-4 d-flex justify-content-around ':'dialog  show flex-column align-items-center p-4 d-flex justify-content-around'}>
